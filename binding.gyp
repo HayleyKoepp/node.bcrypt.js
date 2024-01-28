@@ -1,5 +1,5 @@
 {
-  "variables": {
+# "variables": {
     "NODE_VERSION%":"<!(node -p \"process.versions.node.split(\\\".\\\")[0]\")"
   },
   'targets': [
@@ -48,3 +48,4 @@
     },
   ]
 }
+ 
